@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scenario xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <activeVariants>
+        <variant>lod1</variant>
+        <variant>lod0</variant>
+    </activeVariants>
+    <upAxisIsZ>false</upAxisIsZ>
+    <entities>
+        <entity>
+            <name>SimpleBuilding2</name>
+            <id>SimpleBuilding2-FFFC61DC</id>
+            <type>Building</type>
+            <description />
+            <localTransform>
+                <relToId />
+                <position>
+                    <x>0.00</x>
+                    <y>0.00</y>
+                    <z>0.00</z>
+                </position>
+                <useRotationMatrix>false</useRotationMatrix>
+                <rotationMatrix>
+                    <row1>1.000000 0.000000 0.000000</row1>
+                    <row2>0.000000 1.000000 0.000000</row2>
+                    <row3>0.000000 0.000000 1.000000</row3>
+                </rotationMatrix>
+                <eulerAngles>
+                    <x>0.00</x>
+                    <y>0.00</y>
+                    <z>0.00</z>
+                </eulerAngles>
+                <scale>
+                    <x>1.000</x>
+                    <y>1.000</y>
+                    <z>1.000</z>
+                </scale>
+            </localTransform>
+            <representation>
+                <id />
+                <assetType>Prefab</assetType>
+                <assetName>buildings/ColumnBuilding</assetName>
+                <isVisible>true</isVisible>
+                <localTransform>
+                    <relToId>SimpleBuilding2-FFFC61DC</relToId>
+                    <position>
+                        <x>0.00</x>
+                        <y>0.00</y>
+                        <z>0.00</z>
+                    </position>
+                    <useRotationMatrix>false</useRotationMatrix>
+                    <rotationMatrix>
+                        <row1>1.000000 0.000000 0.000000</row1>
+                        <row2>0.000000 1.000000 0.000000</row2>
+                        <row3>0.000000 0.000000 1.000000</row3>
+                    </rotationMatrix>
+                    <eulerAngles>
+                        <x>0.00</x>
+                        <y>0.00</y>
+                        <z>0.00</z>
+                    </eulerAngles>
+                    <scale>
+                        <x>1.000</x>
+                        <y>1.000</y>
+                        <z>1.000</z>
+                    </scale>
+                </localTransform>
+            </representation>
+        </entity>
+        <entity>
+            <name>Machine1</name>
+            <id>Machine1-FFFC570A</id>
+            <type />
+            <description />
+            <localTransform>
+                <relToId />
+                <position>
+                    <x>-3.761</x>
+                    <y>0.000</y>
+                    <z>2.284</z>
+                </position>
+                <useRotationMatrix>false</useRotationMatrix>
+                <rotationMatrix>
+                    <row1>1.000000 0.000000 0.000000</row1>
+                    <row2>0.000000 1.000000 0.000000</row2>
+                    <row3>0.000000 0.000000 1.000000</row3>
+                </rotationMatrix>
+                <eulerAngles>
+                    <x>0.00</x>
+                    <y>0.00</y>
+                    <z>0.00</z>
+                </eulerAngles>
+                <scale>
+                    <x>1.000</x>
+                    <y>1.000</y>
+                    <z>1.000</z>
+                </scale>
+            </localTransform>
+            <representation>
+                <id />
+                <assetType>AssetBundle</assetType>
+                <assetBundleName>machines</assetBundleName>
+                <assetName>Machine1</assetName>
+                <isVisible>true</isVisible>
+                <localTransform>
+                    <relToId>Machine1-FFFC570A</relToId>
+                    <position>
+                        <x>0.00</x>
+                        <y>0.00</y>
+                        <z>0.00</z>
+                    </position>
+                    <useRotationMatrix>false</useRotationMatrix>
+                    <rotationMatrix>
+                        <row1>1.000000 0.000000 0.000000</row1>
+                        <row2>0.000000 1.000000 0.000000</row2>
+                        <row3>0.000000 0.000000 1.000000</row3>
+                    </rotationMatrix>
+                    <eulerAngles>
+                        <x>0.00</x>
+                        <y>0.00</y>
+                        <z>0.00</z>
+                    </eulerAngles>
+                    <scale>
+                        <x>1.000</x>
+                        <y>1.000</y>
+                        <z>1.000</z>
+                    </scale>
+                </localTransform>
+            </representation>
+        </entity>
+    </entities>
+    <simulation>
+        <historyUri />
+        <historyName />
+        <description />
+        <details />
+        <autoStart>false</autoStart>
+        <histories />
+    </simulation>
+    <relationships />
+</scenario>
